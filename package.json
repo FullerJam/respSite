@@ -26,6 +26,8 @@
     "file-loader": "^1.1.5",
     "file-watcher-webpack-plugin": "^1.1.0",
     "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
     "node-sass": "^4.7.2",
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.9",
@@ -37,6 +39,7 @@
     "webpack": "^3.9.1"
   },
   "dependencies": {
-    "vue": "^2.5.9"
+    "vue": "^2.5.9",
+    "vuex": "^3.0.1"
   }
 }

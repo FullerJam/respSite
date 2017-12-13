@@ -1,0 +1,30 @@
+@for $i from 1 through $grid_cols {
+    /** on the first loop i=1 and iterates up to 12 on each loop **/
+    .col-#{$i} { width:$single_col * $i }
+      .offset-#{$i} { margin-left:$single_col * $i};
+}
+
+*{
+  box-sizing: border-box; /* ensures all elements remain the required size as 'padding gutters' may increase size ##no overflow*/ 
+}
+
+[class*='offset-']{
+  float:left;
+  background-color:pink;
+}
+
+[class*='col-']{ /* class selector uses prefix to columns to give css properties to all ~~'col-'~~ */ 
+  float:left;
+  border:1px solid #fff;
+  padding-right:10px; /*Gutters to create spacing between grid columns*/ 
+}
+
+[class*='col-']:last-of-type {
+  padding-right:0px; /*generically target the last column in each row, like this to stop padding in the last column of each row*/
+}
+
+.row:before,
+.row:after {
+  content:"";  
+  clear:both; /**/ 
+}
