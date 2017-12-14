@@ -5,6 +5,8 @@ import '../sass/main.scss';
 
 //import html pages into bundle
 import '../index.html';
+import '../template.html';
+import '../about.html';
 
 //
 import Vue from 'vue';
