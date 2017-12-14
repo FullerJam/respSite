@@ -9,7 +9,7 @@ A skeleton file structure for Web Design AE2
 Website will consist of 6 pages 
 
 ### Coding styles used for this project: :metal:
-w3schools HTML & CSS
+w3schools HTML
 JS Standard
 Sass Guidelines
 
