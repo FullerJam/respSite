@@ -10,12 +10,10 @@
 
 [class*='offset-']{
   float:left;
-  background-color:pink;
 }
 
 [class*='col-']{ /* class selector uses prefix to columns to give css properties to all ~~'col-'~~ */ 
   float:left;
-  border:1px solid #fff;
   padding-right:10px; /*Gutters to create spacing between grid columns*/ 
 }
 

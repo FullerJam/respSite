@@ -5,12 +5,5 @@
 @import 'abstract/mixins';
 @import 'layout/grid';
 @import 'base/universal';
-@import 'base/universal';
+@import 'layout/header';
 
-body {
-  font-family: arial;
-  h1 {
-    font-size: 20px;
-    color: red;
-  }
-}
