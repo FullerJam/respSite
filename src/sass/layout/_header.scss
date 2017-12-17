@@ -8,11 +8,12 @@ nav ul{
 header nav li{
   float:left;
   font-size:1.6em;
-  margin-right:40px;
-  padding-bottom:20px;
+  margin-right:8px;
+  margin-bottom:20px;
   text-transform:uppercase;
   font-weight:bold;
   color:white;
+  positions:inline-block;
 }
 
 header nav li:hover{
@@ -21,6 +22,5 @@ header nav li:hover{
 
 
 .hNav{
-  background-color:$blue;
   height:36px;
 }

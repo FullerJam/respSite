@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "webpack --watch",
     "prod": "NODE_ENV=production webpack",
+    "start:dev": "webpack-dev-server",
     "prodSafe": "webpack -p"
   },
   "browserslist": [
@@ -37,7 +38,8 @@
     "vue-loader": "^13.0.5",
     "vue-style-loader": "^3.0.3",
     "vue-template-compiler": "^2.4.4",
-    "webpack": "^3.9.1"
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
     "vue": "^2.5.9",
