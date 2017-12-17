@@ -1,7 +1,9 @@
 //DECLARED VARIABLES
 $max_width : 100%; /* a var for max width */
-$grid_cols : 12;
+$grid_cols : 12; // total number of columns
 $single_col: $max_width / $grid_cols;
 
 //style variables
 $bg : #7768AE;
+$blue: #4d9de0;
+

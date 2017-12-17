@@ -1,7 +1,6 @@
 
 
 nav ul{
-  text-align:center;
   list-style:none;
   padding:0px;
 }
@@ -18,4 +17,10 @@ header nav li{
 
 header nav li:hover{
   color:black;
+}
+
+
+.hNav{
+  background-color:$blue;
+  height:36px;
 }
