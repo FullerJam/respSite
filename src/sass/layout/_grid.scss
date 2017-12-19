@@ -14,11 +14,12 @@
 
 [class*='col-']{ /* class selector uses prefix to columns to give css properties to all ~~'col-'~~ */ 
   float:left;
-  padding-right:10px; /*Gutters to create spacing between grid columns*/ 
+  padding-right:10px; /*Gutters to create spacing between grid columns*/
 }
 
 [class*='col-']:last-of-type {
   padding-right:0px; /*generically target the last column in each row, like this to stop padding in the last column of each row*/
+  border:solid 0px;
 }
 
 .row:before,

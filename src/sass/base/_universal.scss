@@ -8,7 +8,7 @@ body ul li {
 }
 
 body {
-  background-color:$bg;
+  background-color:$bg; //$bg
   margin:0;
 }
 
@@ -20,4 +20,8 @@ wrapper {
 row {
   margin:0;
   padding:0;
+}
+
+i {
+  color:white;
 }
