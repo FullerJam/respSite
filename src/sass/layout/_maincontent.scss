@@ -1,6 +1,7 @@
 .bgImg {
   background-image: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1867&q=80");
   height:320px;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
 
 .bgImg-2 {
@@ -18,13 +19,10 @@
   margin-top:60px;
 }
 
-.center-fa{
-  margin:0;
-}
 
-.center-fa p{
+.mqsix p{
   text-align:center;
-  padding-left:10px;
+  font-weight:bold;
 }
 
 .circled{
@@ -48,13 +46,45 @@
   margin:12px 0 0 20px;
   padding:0;
 }
+@media ("max-width:1000px"){
+  .offset-1{
+    margin-left:0 !important;
+  }
+}
+
+@media ("min-width:620px"){
+  .mqsix {
+    width:50%;
+    transition:all 0.5s ease;
+  }
+}
+
+@media ("min-width:1000px"){
+  .col-12{
+    width:83.3333333333%;
+    transition:all 0.5s ease;
+  }
+  .mqsix {
+    width:20.8%!important;
+  }
+
+}
 
 #grad {
-  background: linear-gradient(black, $bg);
-  height:20px;
+  height:40px;
 }
 
 #grad2 {
-  background: linear-gradient($bg, black);
-  height:20px;
+  background: linear-gradient($bg, white);
+  height:40px;
+}
+
+#grad3 {
+  background: linear-gradient(white, #24252D);
+  height:40px;
+}
+
+.bgImg-3 {
+  background:white;
+  height:320px;
 }
