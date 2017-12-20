@@ -10,11 +10,12 @@ import '../contact.html';
 
 //
 import Vue from 'vue';
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
 import Vuex from 'vuex';
 import store from './store';
 import {hamburgerMenu, hamburgerMenuButton} from '@profesia/vue-hamburger-menu-component';
-import VueParticles from 'vue-particles'
-Vue.use(VueParticles)
+
 
 
 Vue.use(Vuex);

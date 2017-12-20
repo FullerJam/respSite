@@ -52,6 +52,11 @@
   height:40px;
 }
 
+#grad4 {
+  background: linear-gradient($bg, $footer);
+  height:40px;
+}
+
 .bgImg-3 {
   background:white;
   height:320px;
@@ -68,4 +73,33 @@
 
 .container {
   padding:20px;
+  margin:0 auto;
+  max-width:500px;
+}
+
+.contactGrid ul li a i:hover {
+  opacity: .7;
+  transition: all 0.3s ease-in-out;
+  cursor:pointer;
+}
+
+.fa-twitter-square {
+  margin-left:36.5%;
+}
+
+.fa-linkedin-square {
+  margin-left:36.5%;
+}
+
+.fa-facebook-square {
+  margin-left:36.5%;
+}
+
+.fa-github-square {
+  margin-left:36.5%;
+}
+
+.bgImg-5 {
+  background:$footer;
+  height:320px;
 }
