@@ -1,4 +1,3 @@
-
 //import styles
 import '../style.css';
 import '../sass/main.scss';
@@ -23,9 +22,9 @@ Vue.component('hello-component', newComponent);
 
 const app = new Vue({
     el: '#app',
-    
+
     store,
-    
+
     components: {
         hamburgerMenuButton,
         hamburgerMenu,

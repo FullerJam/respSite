@@ -1,0 +1,38 @@
+// size decrease queries below
+
+@media ("max-width:1000px"){
+  .offset-1{
+    margin-left:0 !important;
+  }
+}
+
+@media ("max-width:767px"){
+  .logo h1{
+    float:left;
+    padding-left:10px;
+    font-size:35px!important;
+    transition:all 0.5s ease;
+  }
+}
+
+
+
+// Size increase queries below
+
+@media ("min-width:620px"){
+  .mqsix {
+    width:50%;
+    transition:all 0.5s ease;
+  }
+}
+
+@media ("min-width:1000px"){
+  .col-12{
+    width:83.3333333333%;
+    transition:all 0.5s ease;
+  }
+  .mqsix {
+    width:20.8%!important;
+  }
+
+}

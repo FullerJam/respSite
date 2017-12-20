@@ -1,6 +1,7 @@
 
 .logo h1{
   font-family: 'Rancho', cursive;
+  font-size:50px;
   text-align:center;
   color:white;
   padding:0;
@@ -32,8 +33,10 @@
 }
 
 @media ("max-width:767px"){
-  .logo{
+  .logo h1{
     float:left;
-    padding-left:10px
+    padding-left:10px;
+    font-size:35px!important;
+    transition:all 0.5s ease;
   }
 }
