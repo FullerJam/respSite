@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <vue-particles>
+        <vue-particles
                 color="#dedede"
                 :particleOpacity="0.7"
                 :particlesNumber="80"
@@ -16,7 +16,8 @@
                 hoverMode="grab"
                 :clickEffect="true"
                 clickMode="push"
-
+        >
         </vue-particles>
     </div>
 </template>
+        

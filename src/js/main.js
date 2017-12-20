@@ -6,12 +6,16 @@ import '../sass/main.scss';
 import '../index.html';
 import '../template.html';
 import '../about.html';
+import '../contact.html';
 
 //
 import Vue from 'vue';
 import Vuex from 'vuex';
 import store from './store';
-import { hamburgerMenu, hamburgerMenuButton } from '@profesia/vue-hamburger-menu-component';
+import {hamburgerMenu, hamburgerMenuButton} from '@profesia/vue-hamburger-menu-component';
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
+
 
 Vue.use(Vuex);
 export default new Vuex.Store({});
