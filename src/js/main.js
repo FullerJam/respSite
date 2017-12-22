@@ -1,3 +1,14 @@
+//import dependencies
+import Vue from 'vue';
+import VueParticles from 'vue-particles'
+import Vuex from 'vuex';
+import store from './store';
+import {hamburgerMenu, hamburgerMenuButton} from '@profesia/vue-hamburger-menu-component';
+
+
+import newComponent from './components/hello.vue';
+
+
 //import styles
 import '../style.css';
 import '../sass/main.scss';
@@ -8,20 +19,13 @@ import '../template.html';
 import '../about.html';
 import '../contact.html';
 
-//
-import Vue from 'vue';
-import VueParticles from 'vue-particles'
-Vue.use(VueParticles)
-import Vuex from 'vuex';
-import store from './store';
-import {hamburgerMenu, hamburgerMenuButton} from '@profesia/vue-hamburger-menu-component';
 
 
 
+Vue.use(VueParticles);
 Vue.use(Vuex);
-export default new Vuex.Store({});
 
-import newComponent from './components/hello.vue';
+export default new Vuex.Store({});
 Vue.component('hello-component', newComponent);
 
 
