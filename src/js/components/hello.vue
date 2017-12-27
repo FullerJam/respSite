@@ -3,8 +3,8 @@
         <vue-particles
                 color="#dedede"
                 :particleOpacity="0.7"
-                :particlesNumber="80"
-                shapeType="circle"
+                :particlesNumber="75"
+                shapeType="triangle"
                 :particleSize="4"
                 linesColor="#dedede"
                 :linesWidth="1"

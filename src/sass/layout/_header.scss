@@ -14,7 +14,6 @@
   0 0 80px #ff00de,
   0 0 90px #ff00de,
   0 0 100px #ff00de;
-  cursor:pointer;
 }
 
 .logo h1:hover{
@@ -29,13 +28,4 @@
   0 0 100px #ff00de;
   cursor:pointer;
   transition:all 0.8s ease;
-}
-
-@media ("max-width:767px"){
-  .logo h1{
-    float:left;
-    padding-left:10px;
-    font-size:35px!important;
-    transition:all 0.5s ease;
-  }
 }

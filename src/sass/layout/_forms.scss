@@ -11,6 +11,15 @@ input[type=text], select, textarea {
   resize: vertical
 }
 
+#email {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
 
 input[type=submit] {
   background-color: $bg;
@@ -34,8 +43,9 @@ input[type=submit]:hover {
 }
 
 
-.container {
+.f-container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+
 }

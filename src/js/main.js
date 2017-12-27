@@ -18,7 +18,7 @@ import '../index.html';
 import '../template.html';
 import '../about.html';
 import '../contact.html';
-
+import '../landing.html';
 
 
 

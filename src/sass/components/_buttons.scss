@@ -32,6 +32,19 @@
 
 }
 
+.module-hamburger-menu-button {
+  float:right;
+  cursor:pointer;
+}
+
+ul{
+  padding:0;
+  margin:0;
+  text-align:center;
+}
+
+
+
 @media screen and (min-width: 768px) {
   .module-hamburger-menu li {
     float: left;
@@ -46,15 +59,3 @@
   }
 
 }
-
-.module-hamburger-menu-button {
-  float:right;
-  cursor:pointer;
-}
-
-ul{
-  padding:0;
-  margin:0;
-  text-align:center;
-}
-

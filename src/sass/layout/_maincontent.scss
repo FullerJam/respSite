@@ -5,6 +5,7 @@
   background: rgba(0, 0, 0, 0.7);
 }
 
+.mq
 
 .mqsix p{
   text-align:center;
@@ -26,7 +27,7 @@
 }
 
 .icongrid-2{
-  margin:12px 0 0 12px;
+  margin:13px 0 0 11px;
 }
 
 .icongrid-3{
@@ -38,7 +39,7 @@
   margin:15px 0 0 15px;
 }
 
-#buffer {
+.buffer {
   height:30px;
 }
 
@@ -69,15 +70,18 @@
 }
 .center {
   margin:10 auto;
+  text-align:center;
 }
 
 .container {
   padding:20px;
   margin:0 auto;
   max-width:500px;
+  text-align:center;
+
 }
 
-.contactGrid ul li a i:hover {
+.section ul li a i:hover {
   opacity: .7;
   transition: all 0.3s ease-in-out;
   cursor:pointer;
@@ -88,7 +92,7 @@
 }
 
 .fa-linkedin-square {
-  margin-left:36.5%;
+  display:inline-block;
 }
 
 .fa-facebook-square {
@@ -99,7 +103,19 @@
   margin-left:36.5%;
 }
 
-.bgImg-5 {
+.footer {
   background:$footer;
   height:320px;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+hello-component {
+  z-index:-1;
+}
+
+#welcome-banner {
+  display:block;
 }
