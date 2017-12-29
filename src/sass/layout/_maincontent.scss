@@ -1,11 +1,12 @@
 .topmarg {
   margin-top:60px;
   margin-left:40px;
-  color:white;
   background: rgba(0, 0, 0, 0.7);
 }
 
-.mq
+.topmarg,h1{
+  color:white;
+}
 
 .mqsix p{
   text-align:center;
@@ -16,7 +17,7 @@
   margin:10px auto; //centers within div with width value
   height:100px;
   width:100px;
-  border-radius:100px;
+  border-radius:100%;
   border:3px solid white;
   background-color:black;
   box-shadow: 0 5px 10px #555;
@@ -59,17 +60,24 @@
 }
 
 .bgImg-3 {
-  background:white;
+  background:#FFFFFF;
   height:320px;
 }
+.bgImg-3 h1{
+  color:black;
+}
+
 
 .marg {
   margin-left:40px;
   background: rgba(0, 0, 0, 0.7);
+}
+
+.marg,h2,h3{
   color:white;
 }
 .center {
-  margin:10 auto;
+  margin:0 auto;
   text-align:center;
 }
 
@@ -79,28 +87,6 @@
   max-width:500px;
   text-align:center;
 
-}
-
-.section ul li a i:hover {
-  opacity: .7;
-  transition: all 0.3s ease-in-out;
-  cursor:pointer;
-}
-
-.fa-twitter-square {
-  margin-left:36.5%;
-}
-
-.fa-linkedin-square {
-  display:inline-block;
-}
-
-.fa-facebook-square {
-  margin-left:36.5%;
-}
-
-.fa-github-square {
-  margin-left:36.5%;
 }
 
 .footer {
@@ -118,4 +104,9 @@ hello-component {
 
 #welcome-banner {
   display:block;
+}
+
+.footer p {
+  color:white;
+  margin-left:25px;
 }

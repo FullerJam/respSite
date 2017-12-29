@@ -1,61 +1,39 @@
-.module-hamburger-menu ul {
-  background-color: #f2f2f2;
-  border: 2px solid #ddd;
-  overflow: hidden;
-  margin-top:30px;
-  height:200px;
-}
+//social links
 
-.module-hamburger-menu li {
-  list-style: none;
-}
-
-.module-hamburger-menu a {
-  color: black;
-  display: block;
-  padding: 7px 20px;
-  text-align:center;
-  margin:0;
-  font-weight:bold;
-}
-
-.module-hamburger-menu a:hover {
-  background-color: grey;
-  width:100%;
-  transition:all 0.8s ease;
-
-}
-
-.module-hamburger-menu-content {
-  margin-top:40px;
-  height:150px;
-
-}
-
-.module-hamburger-menu-button {
-  float:right;
-  cursor:pointer;
-}
-
-ul{
-  padding:0;
-  margin:0;
-  text-align:center;
-}
-
-
-
-@media screen and (min-width: 768px) {
-  .module-hamburger-menu li {
-    float: left;
+.footer {
+  &, ul, li, a {
+    color: white;
+    width: 55px;
+    margin:0 10px 3px;
   }
-  .module-hamburger-menu ul {
-    background-color: #f2f2f2;
-    border: 2px solid #ddd;
-    overflow: hidden;
-    margin-top:0px;
-    height:40px;
-    padding-top:0px;
-  }
+}
 
+.footer {
+  .fa:hover{
+    transform: rotateY(360deg);
+    opacity: 0.7;
+    transition: .5s;
+    display:block;
+  }
+}
+
+.circle-icon {
+  padding: 20px;
+  border-radius: 100%;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+}
+.fa-twitter {
+  background: #1DA1F2;
+}
+
+.fa-youtube {
+  background:#BB0000;
+}
+
+.fa-github{
+  background:#1DA1F2;
 }
