@@ -1,19 +1,25 @@
 //social links
 
 .footer {
-  &, ul, li, a {
-    color: white;
-    width: 55px;
-    margin:0 10px 3px;
+  & a {
+    color:white;
   }
+  & ul {
+    text-align:center;
+  }
+  & li {
+    display:inline-block;
+  }
+}
+.social {
+  margin:0 10px 3px;
 }
 
 .footer {
   .fa:hover{
     transform: rotateY(360deg);
     opacity: 0.7;
-    transition: .5s;
-    display:block;
+    transition: .3s;
   }
 }
 
