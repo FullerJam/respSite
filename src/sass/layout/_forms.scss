@@ -21,7 +21,13 @@ input[type=text], select, textarea {
   resize: vertical
 }
 
-input[type=submit] {
+.form-container{
+  label{
+    padding-top:10px;
+  }
+}
+
+.btn {
   background-color: $bg;
   color: white;
   padding: 12px 20px;
@@ -29,7 +35,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-#comments {
+#formComments {
   height:150px
 }
 
@@ -39,11 +45,24 @@ input[type=submit]:hover {
 }
 
 
-.f-container {
+.form-container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
   margin:30px auto 320px;
   max-width:500px;
+}
 
+span {
+  color:red;
+}
+
+.form-control:focus {
+  border-color: #7BE855;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(123,232,85,.6);
+}
+
+.form-control.error{
+  border-color: #E84444;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(232,68,68,.6);
 }

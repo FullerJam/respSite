@@ -40,3 +40,28 @@ const app = new Vue({
     }
 });
 
+// Form Validation
+
+new Vue({
+    el: '#formApp',
+    data: function() {
+        return {
+            title: 'Vue Vee Validation',
+            // model.name bound to
+            // a form text control
+            model: {
+                name: '',
+                bio: '',
+                email: '',
+            }
+        }
+    },
+            methods: {
+            //form handler
+            onSubmit: function() {
+                //log entire model to console
+                console.log(this.model)
+            }
+        }
+    },
+)
