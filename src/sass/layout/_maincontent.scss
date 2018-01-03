@@ -46,12 +46,12 @@
 }
 
 #grad2 {
-  background: linear-gradient($bg, white);
+  background: linear-gradient($bg, $bg2);
   height:40px;
 }
 
 #grad3 {
-  background: linear-gradient(white, #24252D);
+  background: linear-gradient($bg2, #24252D);
   height:40px;
 }
 
@@ -60,13 +60,7 @@
   height:40px;
 }
 
-.bgImg-3 {
-  background:#FFFFFF;
-  height:320px;
-}
-.bgImg-3 h1{
-  color:black;
-}
+
 
 .fa-quote-left{
   color:black;
@@ -103,55 +97,4 @@ hello-component {
 
 #welcome-banner {
   display:block;
-}
-
-.footer{
-  background:$footer;
-  padding:20px 0;
-  border-top:20px solid #151515;
-}
-
-.footer p {
-
-  color:white;
-  font-weight:bold;
-  text-align:center;
-}
-
-.ftinfo {
-  background:$footer;
-}
-
-h4 {
-  margin-top:0;
-}
-
-.ftinfo {
-  & li{
-    color:#68696E;
-  }
-}
-
-.ftlist {
- padding-top:10px;
-}
-
-.ftq {
-  height:220px;
-  background:$footer;
-}
-
-.copyright {
-  clear:both;
-  padding:30px 0 0 15px;
-  float:left;
-  width:100%;
-  border-top:2px solid #333;
-  color:#999;
-  background:$footer;
-}
-
-.ftcr {
-  background:$footer;
-  height:20px;
 }

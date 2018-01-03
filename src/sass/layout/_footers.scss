@@ -1,0 +1,98 @@
+.footer{
+  background:$footer;
+  padding:20px 0;
+  border-top:20px solid #151515;
+}
+
+.footer p {
+  color:white;
+  text-align:center;
+}
+
+.ftinfo {
+  background:$footer;
+}
+
+.ftinfo h4 {
+  margin-top:0;
+  font-size:18px;
+  text-transform: uppercase;
+}
+
+.ftinfo {
+  & li{
+    color:#68696E;
+    max-width:320px;
+  }
+}
+
+.ftlist {
+  padding-top:10px;
+}
+
+.ftcol {
+  height:320px;
+  background:$footer;
+}
+
+.copyright {
+  clear:both;
+  padding:30px 0 0 15px;
+  float:left;
+  width:100%;
+  border-top:2px solid #333;
+  color:#999;
+  background:$footer;
+}
+
+.ftcr {
+  background:$footer;
+  height:20px;
+}
+
+
+//social links
+
+.footer { //used & to stop affecting hamburger menu
+  & a {
+    color:white;
+  }
+  & ul {
+    text-align:center;
+  }
+  & li {
+    display:inline-block;
+  }
+}
+.social {
+  margin:0 10px 3px;
+}
+
+.footer {
+  .fa:hover{
+    transform: rotateY(360deg);
+    opacity: 0.7;
+    transition: .3s;
+  }
+}
+
+.circle-icon {
+  padding: 20px;
+  border-radius: 100%;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+}
+.fa-twitter {
+  background: #1DA1F2;
+}
+
+.fa-youtube {
+  background:#BB0000;
+}
+
+.fa-github{
+  background:#1DA1F2;
+}

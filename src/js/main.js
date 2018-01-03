@@ -1,6 +1,7 @@
 //import dependencies
 import Vue from 'vue';
 import VueParticles from 'vue-particles'
+import VeeValidate from 'vee-validate'
 import Vuex from 'vuex';
 import store from './store';
 import {hamburgerMenu, hamburgerMenuButton} from '@profesia/vue-hamburger-menu-component';
@@ -21,10 +22,9 @@ import '../contact.html';
 import '../landing.html';
 
 
-
 Vue.use(VueParticles);
 Vue.use(Vuex);
-
+Vue.use(VeeValidate);
 export default new Vuex.Store({});
 Vue.component('hello-component', newComponent);
 
@@ -39,3 +39,4 @@ const app = new Vue({
         hamburgerMenu,
     }
 });
+
