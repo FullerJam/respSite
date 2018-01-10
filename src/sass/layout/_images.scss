@@ -2,7 +2,12 @@
   background-image: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1867&q=80");
   height:320px;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); // gradient to fade to transparency
+}
 
+.bgImg-1 {
+  background-image: url("/images/photo-experience large.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
 .bgImg-2 {
@@ -12,15 +17,34 @@
 }
 .bgImg-3 {
   background:$bg2;
-  height:320px;
+  width:80%;
+  height:100%;
+  margin-left:10%;
+  padding-bottom:4em;
 }
 
 .bgImg-3 h1{
-  color:black;
+  color:white;
+  text-align:center;
+}
+
+.bgImg-3 p,ul,li{
+  color:white;
+  text-align:center;
+
+}
+
+
+.profile-one{
+  background-image: url("/images/jj.jpg");
+  background-repeat: no-repeat;
+  background-position:83% 82%;
+  transform:translateY(70%);
 }
 
 .bgImg-4{
-  background-image: url("/images/contact-md.png");
+  background-image: url("/images/contact-lg.png");
+  background-position:40% 50%;
   height:320px;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))) // gradient to fade to transparency
 }

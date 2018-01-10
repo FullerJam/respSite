@@ -4,16 +4,19 @@ $grid_cols : 12; // total number of columns
 $single_col: $max_width / $grid_cols;
 
 //style variables
-$bg : #7768AE;
-$bg2: #846be0;
+$bg : #7768AE; //purple
+$bg2: #846be0; //alt purple
 $blue: #4d9de0;
-$green: #e1bc29;
+$green: #3bb273;
 $footer: #202020;
+$yellow: #e1bc29;
+$red: #e15554;
+
 
 //landing page variables
 $container-bg-color:#333;
-$left-bg-color:rgba(223,39,39,0.7);
-$left-button-hover-color:rgba(161,11,11,0.3);
+$left-bg-color:rgba(119,104,174,0.7);
+$left-button-hover-color:rgba(119,104,174,0.3);
 $right-bg-color:rgba(43,43,43,0.8);
 $right-button-hover-color:rgba(92,92,92,0.3);
 $hover-width:75%;

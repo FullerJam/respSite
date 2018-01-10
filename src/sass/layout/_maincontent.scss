@@ -1,5 +1,4 @@
-.picturequote {
-  margin-top:60px;
+[class*='picturequote-'] {
   background: rgba(0, 0, 0, 0.7);
   width:100%;
   text-align:center;
@@ -7,6 +6,14 @@
     color:white;
     text-align:center;
   }
+}
+
+.picturequote-two{
+  margin-top:60px;
+}
+
+.picturequote-one {
+  margin-top:-6%;
 }
 
 
@@ -22,6 +29,15 @@
   border-radius:100%;
   border:3px solid white;
   background-color:black;
+  box-shadow: 0 5px 10px #555;
+}
+
+.profilecircled{
+  margin:10px auto; //centers within div with width value
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  border:3px solid white;
   box-shadow: 0 5px 10px #555;
 }
 
@@ -74,8 +90,19 @@
   color:white;
 }
 .center {
-  margin:0 auto;
+  margin:10 auto;
+  padding-top:.11em;
   text-align:center;
+}
+
+[class*='skills-']{
+  margin:15px auto; //centers within div with width value
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  background:$blue;
+  padding-top:.25em;
+  border:3px solid $bg2;
 }
 
 .bold {
@@ -85,4 +112,26 @@
 
 #welcome-banner {
   display:block;
+}
+
+.container-one {
+  width:80%;
+  margin-left:10%;
+  margin-top:120px;
+}
+
+.container-two {
+  width:80%;
+  margin-left:10%;
+  margin-top:35px;
+}
+.experience-list li{
+  list-style: square inside none;
+  margin-left: 20%;
+  text-align: left;
+}
+
+.fa-quote-left {
+  padding:10% 0 0 20%;
+
 }
