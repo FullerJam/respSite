@@ -8,14 +8,13 @@
 
 .module-hamburger-menu li {
   list-style: none;
-
+  width:20%;
 }
 
 .module-hamburger-menu a {
   color: black;
   display: block;
   padding: 7px 20px;
-  margin:0;
   font-weight:bold;
 }
 
@@ -29,6 +28,7 @@
 .module-hamburger-menu-content {
   margin-top:40px;
   height:150px;
+  width:100%;
 
 }
 

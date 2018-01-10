@@ -24,14 +24,16 @@
     color:#68696E;
     max-width:320px;
   }
+  width:100%;
 }
 
 .ftlist {
   padding-top:10px;
+  margin:0 auto;
 }
 
 .ftcol {
-  height:320px;
+  height:280px;
   background:$footer;
 }
 

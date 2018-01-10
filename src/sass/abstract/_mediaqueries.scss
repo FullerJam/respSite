@@ -49,6 +49,27 @@
     }
 }
 
+@media ("max-width:810px"){
+    .side {
+        width:100% !important;
+    }
+    .right{
+        display:none;
+    }
+    .side.left, .side.right, .split.right:before, .split.left:before {
+        transition: 00ms all ease-in-out !important;
+    }
+}
+
+@media ("max-width:619px"){
+    .ftlist{
+        margin:0 auto;
+    }
+    .ftinfo{
+        width:100%;
+    }
+}
+
 
 // Size increase queries below
 
