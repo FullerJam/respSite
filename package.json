@@ -2,7 +2,7 @@
   "name": "",
   "version": "1.0.0",
   "description": "A vue.js webpack config file for non single page applications",
-  "main": "index.html",
+  "main": "src/index.html",
   "scripts": {
     "watch": "webpack --watch",
     "prod": "NODE_ENV=production webpack",
