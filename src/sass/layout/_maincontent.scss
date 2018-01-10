@@ -41,6 +41,14 @@
   box-shadow: 0 5px 10px #555;
 }
 
+.profilecircled-two{
+  margin:10px auto; //centers within div with width value
+  height:200px;
+  width:320px;
+  border:3px solid white;
+  box-shadow: 0 5px 10px #555;
+}
+
 .icongrid-1{
   margin:13px 0 0 7px;
 }
@@ -77,9 +85,6 @@
   height:40px;
 }
 
-.fa-quote-left{
-  color:black;
-}
 
 .marg {
   margin-left:40px;
@@ -132,6 +137,5 @@
 }
 
 .fa-quote-left {
-  padding:10% 0 0 20%;
-
+  color:black;
 }

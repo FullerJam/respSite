@@ -31,7 +31,21 @@
 .bgImg-3 p,ul,li{
   color:white;
   text-align:center;
+}
 
+.bgImg-4{
+  background-image: url("/images/contact-lg.png");
+  background-position:40% 50%;
+  height:320px;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))) // gradient to fade to transparency
+}
+
+.bgImg-5 {
+  background-image: url("/images/blog.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  height:250px;
+  bakground-size:100% 100%;
 }
 
 
@@ -42,9 +56,12 @@
   transform:translateY(70%);
 }
 
-.bgImg-4{
-  background-image: url("/images/contact-lg.png");
-  background-position:40% 50%;
-  height:320px;
-  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))) // gradient to fade to transparency
+.profile-two{
+  background-image: url("/images/blog.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  transform:translateY(70%);
 }
+
+
+
