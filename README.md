@@ -3,8 +3,10 @@
 A skeleton file structure for Web Design AE2
 
 ###Using:
-- a sass file structure based on Hugo Giraudels Sass Guidelines [link here](https://sass-guidelin.es/#architecture)
-- Webpack for vue.js implementation and hot refresh plugin
+- A sass file structure based on Hugo Giraudels Sass Guidelines [link here](https://sass-guidelin.es/#architecture)
+- Webpack for vue.js implementation
+- Webpack-dev-server
+- Vee-validate
 
 Website will consist of 6 pages 
 
@@ -12,6 +14,7 @@ Website will consist of 6 pages
 w3schools HTML
 JS Standard
 Sass Guidelines
+VUE
 
 
 

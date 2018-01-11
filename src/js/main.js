@@ -21,7 +21,7 @@ import '../about.html';
 import '../contact.html';
 import '../landing.html';
 import '../profile.html';
-import '../particles.html'
+import '../skills.html'
 
 Vue.use(VueParticles);
 Vue.use(Vuex);
@@ -67,9 +67,9 @@ new Vue({
     },
 )
 
-const left = document.querySelector('.left');
-const right = document.querySelector('.right');
-const container = document.querySelector('.container');
+const left = document.querySelector('.left')
+const right = document.querySelector('.right')
+const container = document.querySelector('.container')
 
 left.addEventListener('mouseenter', () => {
     container.classList.add('hover-left');
