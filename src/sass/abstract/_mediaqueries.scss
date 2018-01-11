@@ -76,6 +76,7 @@
     }
     .side.left, .side.right, .split.right:before, .split.left:before {
         transition: 00ms all ease-in-out !important;
+        background-image: url ("/images/landingcodesmall.jpg")!important;
     }
 }
 

@@ -25,23 +25,12 @@
   }
 }
 
-.side.left{
-  left:0;
-  background: url("/images/landingcode.jpg") center center no-repeat;
-  background-size: cover;
-}
 .side.left:before {
   position:absolute;
   content:"";
   width:100%;
   height:100%;
   background:$left-bg-color;
-}
-
-.side.right{
-  right:0;
-  background: url("/images/contact-md.png");
-  background-size:cover;
 }
 
 .side.right:before{

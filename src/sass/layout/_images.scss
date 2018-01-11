@@ -69,3 +69,17 @@
 
 
 
+// Landing page images
+
+.side.left{
+  left:0;
+  background: url("/images/landingcode.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.side.right{
+  right:0;
+  background: url("/images/contact-md.png");
+  background-size:cover;
+}
+
