@@ -20,7 +20,8 @@ import '../blog.html';
 import '../about.html';
 import '../contact.html';
 import '../landing.html';
-import '../profile.html'
+import '../profile.html';
+import '../particles.html'
 
 Vue.use(VueParticles);
 Vue.use(Vuex);
