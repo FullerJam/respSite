@@ -8,6 +8,31 @@
     width:66.68% !important;
     transition:all 0.5s ease;
   }
+  .bgImg{
+    background-image: url("/images/about-small1.jpg")!important;
+  }
+  .bgImg-1 {
+    background-image: url("/images/photo-experience-small.jpg")!important;
+  }
+  .bgImg-2{
+    background-image: url("/images/developer-small.jpg")!important;
+  }
+  .bgImg-3 {
+    width:100% !important;
+  }
+  .bgImg-4{
+    background-image: url("/images/contact-md.png")!important;
+  }
+  .bgImg-5{
+    background-image: url("/images/blog-small.jpg")!important;
+  }
+}
+
+
+@media("max-height": 550px) {
+  .landing-button {
+    top: 70% !important;
+  }
 }
 
 @media ("max-width:530px") {
@@ -20,6 +45,10 @@
         transition:all 0.5s ease;
         padding:0 1 0 1px;
       }
+
+    .ftcol {
+        height:280px !important;
+    }
 }
 
 @media ("max-width:767px"){
@@ -29,10 +58,44 @@
     font-size:30px!important;
     transition:all 0.5s ease;
   }
+  h1 {
+      font-size: 2rem;
+    }
+
+  .button {
+      width: 12rem;
+    }
+}
+
+@media ("max-width:810px"){ //disables landing page for devices below 810px (sides would merge below these px's)
+    .side {
+        width:100% !important;
+    }
+    .right{
+        display:none;
+    }
+    .side.left, .side.right, .split.right:before, .split.left:before {
+        transition: 00ms all ease-in-out !important;
+        background-image: url("/images/landingcodesmall.jpg")!important;
+    }
+}
+
+@media ("max-width:619px"){
+    .ftlist{
+        margin:0 auto;
+    }
+    .ftinfo{
+        width:100%;
+    }
 }
 
 
+
+
+
 // Size increase queries below
+
+
 
 @media ("min-width:620px"){
   .mqsix {
@@ -74,5 +137,13 @@
   }
   .ftcol {
       width:41.65%;
+  }
+}
+
+// height query landing page
+
+@media(max-height: 550px) {
+  .button {
+    top: 70% !important;
   }
 }

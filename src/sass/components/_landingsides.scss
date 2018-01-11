@@ -9,11 +9,11 @@
   position:absolute;
   width:50%;
   height:100%;
-  overflow:hidden;
+  overflow:hidden; // stops scroll
 }
 
 .side {
-  & h1 {
+  & h1 { // helps with nesting, if you don't use affects burger menu
     font-size: 3rem;
     color: #fff;
     position: absolute;
@@ -25,40 +25,12 @@
   }
 }
 
-.landing-button{
-  display:block;
-  position:absolute;
-  left:50%;
-  top:40%;
-  height:2.5rem;
-  padding-top:0.5rem;
-  width:15rem;
-  text-align:center;
-  color:#fff;
-  border:#fff solid 0.2rem;
-  font-size: 1rem;
-  font-weight:bold;
-  text-transform:uppercase;
-  text-decoration:none;
-  transform:translateX(-50%);
-}
-.side.left{
-  left:0;
-  background: url("https://images.unsplash.com/photo-1460398495418-62c9b5d79fbf?auto=format&fit=crop&w=1949&q=80") center center no-repeat;
-  background-size: cover;
-}
 .side.left:before {
   position:absolute;
   content:"";
   width:100%;
   height:100%;
   background:$left-bg-color;
-}
-
-.side.right{
-  right:0;
-  background: url("/images/landingcode.jpg");
-  background-size:cover;
 }
 
 .side.right:before{
@@ -69,15 +41,6 @@
   background:$right-bg-color;
 }
 
-.side.left .landing-button:hover{
-  background-color: $left-button-hover-color;
-  border-color: $left-button-hover-color;
-}
-
-.side.right .landing-button:hover{
-  background-color: $right-button-hover-color;
-  border-color: black;
-}
 
 .side.left, .side.right, .split.right:before, .split.left:before {
   transition: 1000ms all ease-in-out;

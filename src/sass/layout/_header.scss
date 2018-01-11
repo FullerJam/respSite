@@ -1,7 +1,7 @@
 
 .logo h1{
   font-family: 'Rancho', cursive;
-  font-size:50px;
+  font-size:3.12em;
   text-align:center;
   color:white;
   padding:0;
@@ -14,6 +14,10 @@
   0 0 80px #ff00de,
   0 0 90px #ff00de,
   0 0 100px #ff00de;
+  & a{ // helps with nesting, if you don't use affects burger menu
+    font-family: 'Rancho', cursive;
+    color:white;
+  }
 }
 
 .logo h1:hover{
@@ -28,4 +32,69 @@
   0 0 100px #ff00de;
   cursor:pointer;
   transition:all 0.8s ease;
+}
+
+
+// BURGER MENU
+
+.module-hamburger-menu ul {
+  background-color: #f2f2f2;
+  border: 2px solid #ddd;
+  overflow: hidden;
+  margin-top:30px;
+  height:200px;
+}
+
+.module-hamburger-menu li {
+  list-style: none;
+  width:20%;
+}
+
+.module-hamburger-menu a {
+  color: black;
+  display: block;
+  padding: 7px 20px;
+  font-weight:bold;
+}
+
+.module-hamburger-menu a:hover {
+  background-color: grey;
+  width:100%;
+  transition:all 0.8s ease;
+
+}
+
+.module-hamburger-menu-content {
+  margin-top:40px;
+  height:150px;
+  width:100%;
+
+}
+
+.module-hamburger-menu-button {
+  float:right;
+  cursor:pointer;
+}
+
+ul{
+  padding:0;
+  margin:0;
+  text-align:center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .module-hamburger-menu li {
+    float: left;
+  }
+  .module-hamburger-menu ul {
+    background-color: #f2f2f2;
+    border: 2px solid #ddd;
+    overflow: hidden;
+    margin-top:0px;
+    height:40px;
+    padding-top:0px;
+  }
+
 }

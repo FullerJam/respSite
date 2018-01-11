@@ -1,32 +1,33 @@
 //import dependencies
-import Vue from 'vue';
+import Vue from 'vue'
 import VueParticles from 'vue-particles'
 import VeeValidate from 'vee-validate'
-import Vuex from 'vuex';
-import store from './store';
+import Vuex from 'vuex'
+import store from './store'
 import {hamburgerMenu, hamburgerMenuButton} from '@profesia/vue-hamburger-menu-component';
 
 
-import newComponent from './components/hello.vue';
+import newComponent from './components/hello.vue'
 
 
 //import styles
-import '../style.css';
-import '../sass/main.scss';
+import '../style.css'
+import '../sass/main.scss'
 
 //import html pages into bundle
-import '../index.html';
-import '../template.html';
-import '../about.html';
-import '../contact.html';
-import '../landing.html';
+import '../index.html'
+import '../blog.html'
+import '../about.html'
+import '../contact.html'
+import '../landing.html'
+import '../profile.html'
 
 
-Vue.use(VueParticles);
-Vue.use(Vuex);
-Vue.use(VeeValidate);
-export default new Vuex.Store({});
-Vue.component('hello-component', newComponent);
+Vue.use(VueParticles)
+Vue.use(Vuex)
+Vue.use(VeeValidate)
+export default new Vuex.Store({})
+Vue.component('hello-component', newComponent)
 
 
 const app = new Vue({
@@ -65,3 +66,21 @@ new Vue({
         }
     },
 )
+
+// Index page code below
+
+var left = document.querySelector('.left')
+var right = document.querySelector('.right')
+var container = document.querySelector('.container')
+
+left.addEventListener('mouseenter', () => {
+    container.classList.add('hover-left')})
+
+left.addEventListener('mouseleave', () => {
+    container.classList.remove('hover-left')})
+
+right.addEventListener('mouseenter', () => {
+    container.classList.add('hover-right')})
+
+right.addEventListener('mouseleave', () => {
+    container.classList.remove('hover-right')})

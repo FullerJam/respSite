@@ -1,5 +1,4 @@
-.topmarg {
-  margin-top:60px;
+[class*='picturequote-'] {
   background: rgba(0, 0, 0, 0.7);
   width:100%;
   text-align:center;
@@ -9,18 +8,44 @@
   }
 }
 
+.picturequote-two{
+  margin-top:60px;
+}
+
+.picturequote-one {
+  margin-top:-6%;
+}
+
+
 .mqsix p{
   text-align:center;
   font-weight:bold;
 }
 
 .circled{
-  margin:10px auto; //centers within div with width value
+  margin:10px auto;
   height:100px;
   width:100px;
   border-radius:100%;
   border:3px solid white;
   background-color:black;
+  box-shadow: 0 5px 10px #555;
+}
+
+.profilecircled{
+  margin:10px auto;
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  border:3px solid white;
+  box-shadow: 0 5px 10px #555;
+}
+
+.profilecircled-two{
+  margin:10px auto;
+  height:200px;
+  width:320px;
+  border:3px solid white;
   box-shadow: 0 5px 10px #555;
 }
 
@@ -60,9 +85,6 @@
   height:40px;
 }
 
-.fa-quote-left{
-  color:black;
-}
 
 .marg {
   margin-left:40px;
@@ -72,19 +94,37 @@
 .marg,h2,h3{
   color:white;
 }
+
 .center {
-  margin:0 auto;
+  margin:10px auto;
+  padding-top:.11em;
   text-align:center;
 }
 
-.bold {
-  font-weight:bold;
+[class*='skills-']{ // Was going to attach different colors, experimented, looked ugly.. added theme color for now.
+  margin:15px auto;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  background:$blue;
+  padding-top:.25em;
+  border:3px solid $bg2;
 }
 
-hello-component {
-  z-index:-1;
+
+.container-one {
+  width:80%;
+  margin-left:10%;
+  margin-top:120px;
 }
 
-#welcome-banner {
-  display:block;
+.container-two {
+  width:80%;
+  margin-left:10%;
+  margin-top:35px;
+}
+
+.fa-quote-left {
+  color:black;
+  margin-left:20px;
 }

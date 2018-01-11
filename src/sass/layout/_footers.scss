@@ -24,14 +24,16 @@
     color:#68696E;
     max-width:320px;
   }
+  width:100%;
 }
 
 .ftlist {
   padding-top:10px;
+  margin:0 auto;
 }
 
 .ftcol {
-  height:320px;
+  height:280px;
   background:$footer;
 }
 
@@ -78,7 +80,7 @@
 
 .circle-icon {
   padding: 20px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 
@@ -95,4 +97,8 @@
 
 .fa-github{
   background:#1DA1F2;
+}
+
+.footer p{
+  text-transform:uppercase;
 }

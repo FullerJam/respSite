@@ -6,10 +6,10 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: './src/js/main.js',
-    entry: './src/js/landing.js',
+
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve('__dirname', 'dist')
     },
 
     plugins: [
