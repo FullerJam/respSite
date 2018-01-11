@@ -1,18 +1,22 @@
 .bgImg {
-  background-image: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1867&q=80");
+  background-image: url("/images/about-small2.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
   height:320px;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); // gradient to fade to transparency
 }
 
 .bgImg-1 {
-  background-image: url("/images/photo-experience large.jpg");
-  background-repeat:no-repeat;
+  background-image: url("/images/photo-experience-large.jpg");
+  background-repeat:no-repeat;  // wanted to optimise background properties but for some reason images didn't work
   background-position:center;
 }
 
 .bgImg-2 {
-  background-image: url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1950&q=80");
+  background-image: url("/images/developer-large.jpg");
   height:320px;
+  background-repeat:no-repeat;
+  background-position:center;
 
 }
 .bgImg-3 {
@@ -57,7 +61,7 @@
 }
 
 .profile-two{
-  background-image: url("/images/blog.jpg");
+  background-image: url("/images/blog-small.jpg");
   background-repeat: no-repeat;
   background-size:100% 100%;
   transform:translateY(70%);

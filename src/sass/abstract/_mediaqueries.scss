@@ -8,8 +8,23 @@
     width:66.68% !important;
     transition:all 0.5s ease;
   }
+  .bgImg{
+    background-image: url("/images/about-small1.jpg")!important;
+  }
+  .bgImg-1 {
+    background-image: url("/images/photo-experience-small.jpg")!important;
+  }
+  .bgImg-2{
+    background-image: url("/images/developer-small.jpg")!important;
+  }
   .bgImg-3 {
     width:100% !important;
+  }
+  .bgImg-4{
+    background-image: url("/images/contact-md.png")!important;
+  }
+  .bgImg-5{
+    background-image: url("/images/blog-small.jpg")!important;
   }
 }
 
@@ -74,7 +89,12 @@
 }
 
 
+
+
+
 // Size increase queries below
+
+
 
 @media ("min-width:620px"){
   .mqsix {

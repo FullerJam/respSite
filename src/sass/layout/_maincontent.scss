@@ -94,14 +94,15 @@
 .marg,h2,h3{
   color:white;
 }
+
 .center {
-  margin:10 auto;
+  margin:10px auto;
   padding-top:.11em;
   text-align:center;
 }
 
-[class*='skills-']{
-  margin:15px auto; //centers within div with width value
+[class*='skills-']{ // Was going to attach different colors, experimented, looked ugly.. added theme color for now.
+  margin:15px auto;
   height:100px;
   width:100px;
   border-radius:50%;
@@ -110,14 +111,6 @@
   border:3px solid $bg2;
 }
 
-.bold {
-  font-weight:bold;
-}
-
-
-#welcome-banner {
-  display:block;
-}
 
 .container-one {
   width:80%;
@@ -129,11 +122,6 @@
   width:80%;
   margin-left:10%;
   margin-top:35px;
-}
-.experience-list li{
-  list-style: square inside none;
-  margin-left: 20%;
-  text-align: left;
 }
 
 .fa-quote-left {

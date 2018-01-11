@@ -25,3 +25,11 @@
   background-color: $right-button-hover-color;
   border-color: black;
 }
+
+.btn {
+  background-color: $bg;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
